@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Igbow Games - Simple &amp; Addictive Mobile Games</title>
+  <meta name="description" content="Igbow Games creates simple, fun and addictive mobile games for everyone. Discover our apps on the App Store.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="index.html">Igbow Games</a>
+      <div class="nav-links">
+        <a href="index.html#apps">Apps</a>
+        <a href="privacy.html">Privacy</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Simple, fun &amp; addictive games for everyone.</h1>
+        <p>No special skills needed — just an attentive mind and fast fingers. Pick a game and start having fun today.</p>
+        <a class="btn btn-primary" href="#apps">Browse the games</a>
+      </div>
+    </section>
+
+    <section id="apps" class="apps-section">
+      <div class="container">
+        <h2>Our Apps</h2>
+        <p class="section-note">Available now on the App Store.</p>
+        <div id="apps-grid" class="apps-grid"><!-- rendered from js/apps.js --></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Igbow Games. All rights reserved.</p>
+      <a href="privacy.html">Privacy Policy</a>
+    </div>
+  </footer>
+
+  <script src="js/apps.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

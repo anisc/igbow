@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Igbow Games</title>
+  <meta name="description" content="Privacy policy for the apps published by Igbow Games on the App Store.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="index.html">Igbow Games</a>
+      <div class="nav-links">
+        <a href="index.html#apps">Apps</a>
+        <a href="privacy.html">Privacy</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <article class="container privacy-page">
+      <h1>Privacy Policy</h1>
+      <p class="updated">Effective date: <span id="effective-date"></span></p>
+
+      <p>
+        Igbow Games ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy
+        explains how the mobile applications we publish on the Apple App Store ("the Apps") handle your
+        information.
+      </p>
+
+      <h2>Information We Collect</h2>
+      <p>
+        Our Apps are designed to be simple and fun. We do <strong>not</strong> collect, store, or share any
+        personal information about you. Our Apps do not require you to create an account and do not request
+        access to your contacts, photos, location, or other personal data on your device.
+      </p>
+
+      <h2>Analytics and Third-Party Services</h2>
+      <p>
+        Our Apps do not use third-party analytics, advertising, or tracking services. No data about your
+        usage, device, or session is transmitted to us or to any third party.
+      </p>
+
+      <h2>In-App Purchases</h2>
+      <p>
+        If the Apps offer in-app purchases, transactions are processed by Apple through the App Store.
+        Any payment information is handled by Apple under its own privacy policy, and we never receive or
+        store your payment details.
+      </p>
+
+      <h2>Children's Privacy</h2>
+      <p>
+        Our Apps are suitable for users of all ages. We do not knowingly collect any personal information
+        from children or from anyone else using the Apps.
+      </p>
+
+      <h2>Data Security</h2>
+      <p>
+        Because we do not collect any personal data, there is no personal information stored on our servers
+        or stored by us at all. All data within the Apps stays locally on your device.
+      </p>
+
+      <h2>Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. Any changes will be posted on this page with an
+        updated effective date. We encourage you to review this page periodically.
+      </p>
+
+      <h2>Contact Us</h2>
+      <p>
+        If you have any questions about this Privacy Policy, please contact us at
+        <a href="mailto:anis.chandoul@gmail.com">anis.chandoul@gmail.com</a>.
+      </p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Igbow Games. All rights reserved.</p>
+      <a href="privacy.html">Privacy Policy</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    if (document.getElementById("effective-date")) {
+      document.getElementById("effective-date").textContent = new Date().toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "long",
+        day: "numeric"
+      });
+    }
+  </script>
+</body>
+</html>
